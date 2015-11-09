@@ -93,4 +93,3 @@ To fully use Sylvite, you need to grant access to Kinesis, CloudWatch and Dynamo
     ]
 }
 ```
-
