@@ -2,14 +2,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.empiricalresults</groupId>
-    <artifactId>simple-python-kinesis-client</artifactId>
+    <artifactId>sylvite</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.2.6.RELEASE</version>
+        <version>1.2.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -35,7 +35,7 @@
         <dependency>
             <groupId>com.github.empiricalresults</groupId>
             <artifactId>amazon-kinesis-client</artifactId>
-            <version>4c8dbb789525e331a1c91fd3a6affe7ed36752f0</version>
+            <version>4e08a35287ee9b4191d48128c620b9db28e908c4</version>
         </dependency>
 
         <dependency>
