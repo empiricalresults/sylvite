@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.empiricalresults</groupId>
     <artifactId>sylvite</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
@@ -12,6 +12,13 @@
         <version>1.2.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <scm>
+        <url>https://github.com/empiricalresults/sylvite</url>
+        <connection>scm:git:git://github.com/empiricalresults/sylvite.git</connection>
+        <developerConnection>scm:git:git@github.com:empiricalresults/sylvite.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
