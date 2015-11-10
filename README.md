@@ -8,11 +8,11 @@ Sylvite needs to know a few things about the Kinesis stream you are trying to pr
 
 ### Required Parameters
 
-_streamName (STREAM_NAME)_: The Kinesis stream to process.
+`streamName (STREAM_NAME)`: The Kinesis stream to process.
 
-_applicationName (APPLICATION_NAME)_: The name of the application.  A DynamoDB table with this name will be used (or created) for checkpointing.
+`applicationName (APPLICATION_NAME)`: The name of the application.  A DynamoDB table with this name will be used (or created) for checkpointing.
 
-_executableName (EXECUTABLE_NAME)_: The child process to spawn.  This process must conform to the KCL multi-lang daemon protocol.
+`executableName (EXECUTABLE_NAME)`: The child process to spawn.  This process must conform to the KCL multi-lang daemon protocol.
 
 
 ### Quick Start
