@@ -16,7 +16,7 @@ Sylvite needs to know a few things about the Kinesis stream you are trying to pr
 
 
 ### Quick Start
-Download the [executable jar](https://github.com/empiricalresults/sylvite/releases/download/0.0.1/sylvite.jar) (or build it yourself), set a few environment vars, and go:
+Download the [executable jar](https://github.com/empiricalresults/sylvite/releases/download/0.0.2/sylvite.jar) (or build it yourself), set a few environment vars, and go:
 
 ```sh
 > export STREAM_NAME=my-kinesis-stream
