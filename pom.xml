@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.empiricalresults</groupId>
     <artifactId>sylvite</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.2.7.RELEASE</version>
+        <version>1.3.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>com.github.empiricalresults</groupId>
             <artifactId>amazon-kinesis-client</artifactId>
-            <version>4e08a35287ee9b4191d48128c620b9db28e908c4</version>
+            <version>v1.6.1-er</version>
         </dependency>
 
         <dependency>
