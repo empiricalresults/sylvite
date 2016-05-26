@@ -42,7 +42,8 @@ public class KCLConfig {
             "awsCredentialsProvider",  // two of these due to strange case
             "AWSCredentialsProvider",
             "workerId",
-            "streamName"
+            "streamName",
+            "initialPositionInStream"
     };
 
 
