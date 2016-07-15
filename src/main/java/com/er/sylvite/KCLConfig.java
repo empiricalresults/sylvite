@@ -43,7 +43,8 @@ public class KCLConfig {
             "AWSCredentialsProvider",
             "workerId",
             "streamName",
-            "initialPositionInStream"
+            "initialPositionInStream",
+            "validateSequenceNumberBeforeCheckpointing"
     };
 
 
