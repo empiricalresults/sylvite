@@ -42,7 +42,7 @@
         <dependency>
             <groupId>com.github.empiricalresults</groupId>
             <artifactId>amazon-kinesis-client</artifactId>
-            <version>v1.6.3-er2</version>
+            <version>v1.6.4-er1</version>
         </dependency>
 
         <dependency>

@@ -11,9 +11,7 @@ import org.springframework.stereotype.Component;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Abstraction around the KCL configuration.
@@ -32,8 +30,9 @@ public class KCLConfig {
     @Autowired
     public Environment environment;
 
-    // here's a big list of known properties.  the KCL handles properties a bit weird, and spring lets
-    // these come from anywhere (command line, env vars, properties files), so we'll define the ones we allow
+    // extra properties not defined supported as config, but not discoverable via withX methods
+    // in KinesisClientLibConfiguration.  These will be combined with the withX methods to
+    // create the full list of available config elements.
     public static final String[] VALID_PROPERTIES = new String[] {
             "applicationName",
             "executableName",
@@ -43,8 +42,6 @@ public class KCLConfig {
             "AWSCredentialsProvider",
             "workerId",
             "streamName",
-            "initialPositionInStream",
-            "validateSequenceNumberBeforeCheckpointing"
     };
 
 
@@ -56,7 +53,7 @@ public class KCLConfig {
     }
 
     public static List<String> enumerateValidProperties() {
-        List<String> props = new LinkedList<>();
+        Set<String> props = new HashSet<>();
         for (String prop : VALID_PROPERTIES) {
             props.add(prop);
         }
@@ -70,7 +67,7 @@ public class KCLConfig {
                 props.add(propName);
             }
         }
-        return props;
+        return new ArrayList<>(props);
     }
 
     public Properties asProperties() {
