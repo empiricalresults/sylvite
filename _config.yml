@@ -1,0 +1,39 @@
+title: Sylvite
+description: The natural way to use the KCL
+logo: http://aboutashu.com/hcz-jekyll-blog/static/img/avatar.png
+github: https://github.com/ashutosh2k12
+about:
+disqus_shortname:
+google_analytics:
+urls:
+    - text: About
+      url: /
+      icon: fa-home
+      layout: post
+    - text: Usage
+      url: /usage/
+      icon: fa-cogs
+    - text: Configuration
+      url: /configuration/
+      icon: fa-cogs
+    - text: Protocol
+      url: /protocol/
+      icon: fa-cogs
+    - text: Download
+      url: https://github.com/empiricalresults/sylvite
+      icon: fa-download
+    - text: Github
+      url: https://github.com/empiricalresults/sylvite
+      icon: fa-github
+
+enableTags: true
+tagarray: []
+
+baseurl: "/sylvite"
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
