@@ -6,10 +6,10 @@ permalink: /configuration/
 As Sylvite is a wrapper around the KCL, all of the KCL configuration is supported.
 
 Configuration values can be set via either environment variables of via a configuration file.  See the
-[usage](asdf) page for examples.
+[usage]({{site.baseurl}}/usage/) page for examples.
 
 #### Required Configuration
-{: .home-subtitle}
+{: .home-subtitle .not-first}
 
 <p>
 The following settings are required.
@@ -49,7 +49,7 @@ The following settings are required.
 
 
 #### Optional Configuration
-{: .home-subtitle}
+{: .home-subtitle .not-first}
 
 The following settings are optional and all have default values if not set.
 

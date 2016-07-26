@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Usage
+permalink: /usage/
 ---
 
 #### Quick Start
@@ -29,10 +30,10 @@ an equivalent config file version:
 % java -Xmx200m -jar sylvite.jar --config config.properties
 {% endhighlight %}
 
-See the [configuration](http://configuration) page for a description of all the available options.
+See the [configuration]({{site.baseurl}}/configuration/) page for a description of all the available options.
 
 #### IAM Policy
-{: .home-subtitle}
+{: .home-subtitle .not-first}
 
 The KCL requires the following IAM policy similar to the following (this is for the us-east-1 aws region),
 restricting dynamodb access to the table MyAppName and kinesis access to the stream MyKinesisStream.
@@ -74,7 +75,7 @@ restricting dynamodb access to the table MyAppName and kinesis access to the str
 {% endhighlight %}
 
 #### Example: Python Kinesis Processor
-{: .home-subtitle}
+{: .home-subtitle .not-first}
 
 The example above references the *my-multilang-script.sh* script, which must conform
 to the multi-lang protocol in order to process records.  As a concrete example, here's
@@ -128,7 +129,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 #### Logging
-{: .home-subtitle}
+{: .home-subtitle .not-first}
 
 As the KCL multi-lang protocol communicates with the child processes using STDOUT,
 all child processes must log messages to STDERR.  These will be echoed in the

@@ -1,8 +1,6 @@
 title: Sylvite
 description: The natural way to use the KCL
-logo: http://aboutashu.com/hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/ashutosh2k12
-about:
+about: The natural way to use the KCL
 disqus_shortname:
 google_analytics:
 urls:
@@ -12,15 +10,15 @@ urls:
       layout: post
     - text: Usage
       url: /usage/
-      icon: fa-cogs
+      icon: fa-book
     - text: Configuration
       url: /configuration/
       icon: fa-cogs
     - text: Protocol
       url: /protocol/
-      icon: fa-cogs
+      icon: fa-info-circle
     - text: Download
-      url: https://github.com/empiricalresults/sylvite
+      url: https://github.com/empiricalresults/sylvite/releases/download/0.0.5/sylvite-0.0.5.jar
       icon: fa-download
     - text: Github
       url: https://github.com/empiricalresults/sylvite

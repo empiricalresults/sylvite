@@ -187,3 +187,21 @@ dt {
 p.first {
   margin-top: 0 !important;
 }
+
+.not-first {
+  margin-top: 32px;
+}
+
+figure.highlight {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.list-group-item-heading {
+  font-size: x-large;
+  font-weight: normal;
+}
+
+.list-group-item-text {
+  font-size: small;
+}
