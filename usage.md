@@ -81,13 +81,15 @@ The example above references the *my-multilang-script.sh* script, which must con
 to the multi-lang protocol in order to process records.  As a concrete example, here's
 how to create a python kinesis processor.
 
-1. Install the kclpy library.
+<ol>
+
+<li>Install the kclpy python kinesis library.</li>
 
 {% highlight sh %}
 % pip install kclpy
 {% endhighlight %}
 
-2. Create a file named app.py.
+<li>Create a file named app.py.</li>
 
 {% highlight python %}
 import kclpy
@@ -119,7 +121,7 @@ if __name__ == "__main__":
 
 {% endhighlight %}
 
-3. Start processing the stream.
+<li>Start processing the stream.</li>
 
 {% highlight sh %}
 % export STREAM_NAME=my-kinesis-stream
@@ -127,6 +129,7 @@ if __name__ == "__main__":
 % export EXECUTABLE_NAME="python app.py"
 % java -Xmx200m -jar sylvite.jar
 {% endhighlight %}
+</ol>
 
 #### Logging
 {: .home-subtitle .not-first}
